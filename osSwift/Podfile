@@ -1,0 +1,23 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
+use_frameworks!
+
+target 'iwtest' do
+  # Uncomment this line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for iwtest
+  
+  pod 'SnapKit', '~> 3.2.0'
+
+  target 'iwtestTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'iwtestUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
